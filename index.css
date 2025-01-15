@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Scoreboard'; /* Custom name for the font */
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype'); /* Path to the font file */
+}  
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: green;
+    color: #FAF9F6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header h2 {
+    text-align: center;
+    margin: 50px;
+    /* font-size: 200%; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 50%; */
+}
+
+h3 {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 200%;
+}
+
+/* h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FAF9F6;
+} */
+
+.container-col {
+    width: 200px;
+    /* max-width: 200px; */
+    margin: 40px;
+    /* border: 1px solid red; */
+}
+
+.current-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.score-count {
+    text-align: center;
+    display: flex;
+    font-family: "Scoreboard";
+    /* background-color: black; */
+    border-radius: 10px;
+    /* height: 50%; */
+    /* font-size: 800%; */
+    color: yellow;
+    /* padding: 50px; */
+    /* border: 2px solid #FAF9F6; */
+}
+
+.previous {
+    height: 30%;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.current {
+    justify-content: space-between;
+    align-items: end;
+    /* width: 50%; */
+}
+
+.right-previous {
+    align-items: start;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.points {
+    font-size: 400%;
+    padding: 14px;
+}
+
+.games {
+    font-size: 250%;
+    padding: 12px;
+}
+
+.sets {
+    font-size: 150%;
+    padding: 10px;
+}
+
+p {
+    background-color: black;
+    border-radius: 10px;
+    margin: 0;
+    border: 1px solid #FAF9F6;
+}
+
+.increment-btn {
+    /* border: none; */
+    border-radius: 5px;
+    background: purple;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    margin: 14px auto;
+    width: 60%;
+    padding: 10px 20px;
+}
